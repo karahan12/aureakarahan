@@ -1,0 +1,194 @@
+body {
+    background-color: #F8F5F3;
+    
+}
+h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 70px;
+    color:black;
+    text-align: center;
+    padding-top: 180px
+
+}
+h2 {
+    font-family:'Cormorant Garamond', serif;
+    font-size: 50px;
+    color:black;
+    text-align: center;
+
+}
+
+h4 {font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+
+}
+p {
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+    font-size: 20px;
+    color: #FFD0EA;
+}
+h3 {
+    font-family: 'quicksand', sans-serif;
+    font-size: 30px;
+    color:#F29CCA;
+}
+h5 {font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+    font-size: 15px;
+    color: black;
+}
+
+h6 {font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+      font-style: italic;
+
+
+}
+
+.kara {  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+mark {
+  display: inline-block;
+  line-height: 0em;
+  padding-bottom: 0.5em;
+    background-color: #FAF1DA;
+}
+.col-md-8{display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+    position: relative;
+  /* Adjust these values accordingly */
+  top: 5px;
+  left: 5px;
+}
+.row-centered {text-align:center;}
+.col-centered { display:inline-block; float:none; margin-right:-4px;}
+    
+.mb-5 flex-center{
+    display:flex;
+    flex-direction:row;
+}
+
+#linkedin-icon {
+   background-image: url('../images/linkedin-in.png');
+   height: 32px;
+   width: 32px;
+     position:relative;
+    top:87%;
+    left:45%;
+    
+}
+
+
+#linkedin-icon:hover {
+   background-image: url('../images/hover-linkedin-in.png');
+}
+#mail-icon{
+      background-image: url('../images/mail.png');
+   height: 25px;
+   width: 32px;
+     position:relative;
+    top:88%;
+    left:50%;
+      
+}
+#mail-icon:hover{
+       background-image: url('../images/hover-mail.png');
+    
+}
+#resume-icon{
+      background-image: url('../images/resume.png');
+   height: 29px;
+   width: 22px;
+       position:relative;
+    top:87.8%;
+    left:55%;
+
+}
+#resume-icon:hover{
+           background-image: url('../images/hover-document.png');
+}
+
+
+.skills {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+    
+    
+}
+.brown {
+    color:#9D857A;
+}
+.experience {
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+}
+.footer {
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1020px;
+}
+#button{
+   background-image: url('../images/learnmore.png');
+   height: 48px;
+   width: 213px;
+      position:relative;
+         margin-left: auto;
+  margin-right: auto;
+
+    
+}
+
+#button:hover {
+   background-image: url('../images/learnmorehover.png');
+}
+#menu
+{
+    z-index: 1;
+    position: fixed;
+    top: 40vh;
+}
+
+#menu ul
+{
+    list-style: none;
+}
+
+#menu ul li
+{
+    cursor: pointer;
+    margin-left: 2.5vw;
+    margin-top: 3vh;
+}
+
+#menu ul li i 
+{
+    font-size: 1.75vw;
+    /*font-size: 30px;*/
+}
+
+#menu ul li a
+{
+    color: black;
+}
+.vertical { 
+            border-left: 2px solid #D2C7BD; 
+            height: 200px; 
+        margin-left: 5vw;
+
+        } 
